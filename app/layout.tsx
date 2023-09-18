@@ -38,13 +38,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
           <Analytics />
         </ThemeProvider>
       </body>
-      <script>
-	var beamer_config = {
-		product_id : 'XftVgXsi58481', //DO NOT CHANGE: This is your product code on Beamer
-		//user_created_at : '2010-01-00T00:00:00Z' /*Optional: Date in which this user was created. Accepts a string in ISO-8601 format or a numeric UNIX timestamp (in milliseconds).*/
-	};
-</script>
-<script type="text/javascript" src="https://app.getbeamer.com/js/beamer-embed.js" defer="defer"></script>
+      
     </html>
   )
 }
